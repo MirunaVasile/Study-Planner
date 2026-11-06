@@ -15,7 +15,7 @@
 
 ---
 
-## ✨ Overview
+## Overview
 
 **Study Planner** is a Python desktop application built as a Software Systems Engineering project. It covers the full process: requirements and use cases, UML modelling (class and sequence diagrams), implementation, and automated testing.
 
@@ -73,6 +73,7 @@ The project follows a layered design, which keeps the UI free of SQL and makes t
               │  SQLite   │
               └───────────┘
 ```
+---
 
 ### Database schema
 
@@ -89,7 +90,7 @@ The project follows a layered design, which keeps the UI free of SQL and makes t
   ![diagrama_clase](documentation/diagrama_clase.png)
 
 
-## 📁 Project structure
+## Project structure
 
 ```
 study_planner/
@@ -111,7 +112,9 @@ study_planner/
     └── test_sessions.py
 ```
 
-## ⚙️ Getting started
+---
+
+## Getting started
 
 ### Requirements
 
@@ -147,7 +150,9 @@ The SQLite database (`studyplanner.db`) is created automatically on first launch
 
 > ⚠️ Change this account's credentials if you ever deploy the app beyond a local demo (see [Known limitations](#-known-limitations)).
 
-## 🧪 Testing
+---
+
+##  Testing
 
 The project includes **15 unit tests** covering authentication, courses, deadlines and study sessions. Each test runs against an isolated database.
 
@@ -173,7 +178,7 @@ Statement coverage of the business logic in `backend.py` is **95%**.
 | `test_deadlines.py` | Create · create without title (rejected) · edit · mark as completed · delete |
 | `test_sessions.py` | Save new session · resume an existing session · delete |
 
-## 📐 Software engineering artifacts
+## Software engineering artifacts
 
 This app was developed alongside its engineering documentation:
 
