@@ -79,9 +79,8 @@ The project follows a layered design, which keeps the UI free of SQL and makes t
 
 ### UML class diagram
 
-<p align="center">
-  ![diagrama_clase](documentation/d)
-</p>
+  ![diagrama_clase](documentation/diagrama_clase.png)
+
 
 ## 📁 Project structure
 
