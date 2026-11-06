@@ -21,6 +21,13 @@
 
 Students sign up, add their courses, register deadlines for assignments and exams, and run timed study sessions. A progress dashboard turns all of that into statistics and charts. An administrator account can manage global settings and see all registered users.
 
+---
+
+## Live demo:
+![study_planner_demo](study_planner.gif)
+
+---
+
 ## Features
 
 ###  For students
